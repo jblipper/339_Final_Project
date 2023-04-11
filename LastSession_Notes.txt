@@ -1,0 +1,31 @@
+List of stuff to do:
+
+- 1 candle: do 5 runs of 4 seconds array readings and a full run for whole candle
+- 2 candles: do 4 runs of full candle measuring time as well
+- 3 candles: do 5 runs of full candle and 20-ish runs of 4 second array readings
+
+Video analysis: do full run for 2 candles and 3 candles, with 5ish videos of oscillations for 3 candles, as well as one candle
+
+Notes: 
+- the plateau we notice in the runs is really dependent on field of view, so a candle that's like halfway melted will give saturated runs
+- for 3 candles, we notice that oscillations start immediately, and are a lot higher than 2 candles, and once the candle starts melting these oscillations start reducing dramatically
+- so 3 candles starts with a lot of oscillations, data seems to be better then, compared to 2 minutes in when it starts saturating
+
+distance between candle and photodiode: 16 +- 0.5 cm
+for cts 3 candles, we changed the distance to 22 +- 0.5 cm to not oversaturate the photodiode, because otherwise runs would be mostly saturated
+
+
+Results:
+- 1 candle: we got 5 runs of 4 seconds and a continuous run 
+- 2 candles: got 4 runs of continuous burning
+- 3 candles: got 45! runs of 4 second array readings and 5 runs of continuous burning
+	- Some of these runs are oversaturated, but some are good so we can plot on python and discard too saturated runs as needed
+	- For continuous burning, we adjusted photodiode distance but maintained proper field of view
+
+- Video analysis: got full runs of 2/3 candles and 5 videos of oscillations for 3 candles, as well as 2 1-minute videos for 1 candle
+	- Storage constraints: we made the "full" runs 2:10 in length, we are able to observe periods of oscillation and non-oscillation so it works out anyway
+
+
+Viewing section dimensions: 9.75 +- 0.5 cm in height 
+
+	

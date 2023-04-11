@@ -6,7 +6,7 @@ value=130
 arraySize=600
 serialPort=serial.Serial()
 serialPort.baudrate=9600
-serialPort.port="COM5"
+serialPort.port="COM3"
 print(serialPort)
 serialPort.open()
 dataRead=False
@@ -40,4 +40,4 @@ plt.xlabel("array index")
 plt.ylabel("10-bit rounded voltage reading")
 print('mean:', np.mean(dataOut))
 
-np.savetxt('3candles_10bit_363_7.csv', dataOut, delimiter=",")
+np.savetxt('2candles_10bit_363_23.csv', dataOut, delimiter=",")
